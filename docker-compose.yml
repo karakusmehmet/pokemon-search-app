@@ -1,0 +1,6 @@
+services:
+  pokemon-app:
+    build: .
+    container_name: pokemon_search_container
+    ports:
+      - "8080:80"
